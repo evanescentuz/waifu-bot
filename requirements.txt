@@ -1,5 +1,5 @@
 lexica-api==1.5.7
-numpy==1.21.4
+numpy>=1.22.0
 opencv-python
 aiofiles==23.2.1
 aiohttp==3.9.1
