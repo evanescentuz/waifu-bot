@@ -2,18 +2,18 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "5675252446"
+    OWNER_ID = "6558846590"
     sudo_users = "5675252446"
     GROUP_ID = -1001926606886
-    TOKEN = "6629091452:AAGva53lk8QbOQ46qCiPE1HyEwi0alktHds"
+    TOKEN = "6574068893:AAGx6htoV245fj3h-b-xUDou2BWuEJYII2U"
     mongo_url = "mongodb+srv://yunyxedits:assalom%4013@waifudata.vfutysm.mongodb.net/?retryWrites=true&w=majority&appName=waifudata"
     PHOTO_URL = ["https://ibb.co/q7jzMwz", "https://ibb.co/T2qNx5m", "https://ibb.co/TYS7yC4", "https://ibb.co/hVRR0T1", "https://ibb.co/3W3rVy6"]
     SUPPORT_CHAT = "Aniverse_Group"
-    UPDATE_CHAT = "Aniverse_Group"
-    BOT_USERNAME = "LOVETHETICX_bot"
+    UPDATE_CHAT = "Aniverse_Updates"
+    BOT_USERNAME = "AniverseWaifuBot"
     CHARA_CHANNEL_ID = "-1001926606886"
-    api_id = 29668491
-    api_hash = "84feb2e86bc3fa3b0b9bc1e3a3428177"
+    api_id = 24698455
+    api_hash = "00d4cd57b1fb369ea65563d40c9c2494"
 
     STRICT_GBAN = True
     ALLOW_CHATS = True
