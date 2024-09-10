@@ -52,14 +52,20 @@ async def export_characters_to_channel(update: Update, context: CallbackContext)
         if rarity_filter and normalized_rarity != rarity_filter:
             continue
 
-        img_url = character['img_url']
+        img_url = character['img_url']  # This is the telegra.ph link
         name = character['name']
         anime = character['anime']
         rarity = character['rarity']
         character_id = character['id']
 
         # Prepare the caption for the message
-        caption = f"<b>Character Name:</b> {name}\n<b>Anime Name:</b> {anime}\n<b>Rarity:</b> {rarity}\n<b>ID:</b> {character_id}"
+        caption = (
+            f"<b>Character Name:</b> {name}\n"
+            f"<b>Anime Name:</b> {anime}\n"
+            f"<b>Rarity:</b> {rarity}\n"
+            f"<b>ID:</b> {character_id}\n"
+            f"<b>Telegra.ph Link:</b> {img_url}"
+        )
 
         try:
             # Send the picture to the channel
