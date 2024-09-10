@@ -190,7 +190,7 @@ async def send_groups_document(update: Update, context: CallbackContext) -> None
 
 application.add_handler(CommandHandler('ctop', ctop, block=False))
 application.add_handler(CommandHandler('stats', stats, block=False))
-application.add_handler(CommandHandler('TopGroups', global_leaderboard, block=False))
+application.add_handler(CommandHandler('topgroups', global_leaderboard, block=False))
 application.add_handler(CommandHandler('list', send_users_document, block=False))
 application.add_handler(CommandHandler('groups', send_groups_document, block=False))
 application.add_handler(CommandHandler('top', global_users_leaderboard, block=False))
